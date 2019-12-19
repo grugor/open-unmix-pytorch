@@ -185,6 +185,7 @@ def main():
         input_scale=scaler_std,
         nb_channels=args.nb_channels,
         hidden_size=args.hidden_size,
+	unidirectional=args.unidirectional,
         n_fft=args.nfft,
         n_hop=args.nhop,
         max_bin=max_bin,
